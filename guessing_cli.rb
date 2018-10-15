@@ -9,5 +9,6 @@ def run_guessing_game
     elsif answer.to_i != number
       puts "The computer guessed #{number}."
     end
+  end
   puts "Goodbye!"
 end
